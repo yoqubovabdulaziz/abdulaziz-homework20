@@ -1,0 +1,24 @@
+#backtop {
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 50%;
+   bottom: -100px;
+   right: 25px;
+   width: 50px;
+   height: 50px;
+   z-index: -1;
+   background-color: #FFA63A;
+   background-color: black;
+   transition: 0.5s;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+}
+
+#backtop.backtop-show {
+   bottom: 25px;
+   z-index: 10;
+}
+
